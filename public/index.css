@@ -16,8 +16,8 @@ body{
 }
 
 .chat-section{
-    width: 800px;
-    max-width: 90%;
+    width: 850px;
+    max-width: 95%;
     background: #fff;
     border-radius: 10px;
 }
@@ -52,9 +52,10 @@ textarea{
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     border-radius: 10px;
     font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
 }
 
-.msg{
+.message{
     padding: 1rem;
     border-radius: 4px;
     margin-bottom: 40px;
@@ -72,10 +73,11 @@ textarea{
     margin-left: auto;
 }
 
-.msg h4{
+.message h4{
     position: absolute;
     top: -20px;
     left: 0;
     color: #333;
     font-size: 14px;
 }
+
